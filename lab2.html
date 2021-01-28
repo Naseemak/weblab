@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LAB 2</title>
+<style>
+table,tr,td
+{
+	border:solid black;
+	width:35%;
+	text-align:center;
+	border-collapse:collapse;
+	background-color: lightblue;
+	}
+<table>
+{
+	margin=auto;
+}
+</style>
+<script>
+document.write("<table><tr><th colspan=3>NUMBERS FROM 0 TO 10 AND THEIR SQUARES AND CUBES</th></tr>");
+document.write("<tr><td>NUMBER</td><td>SQUARE</td><td>CUBES</td>");
+for(var i=0; i<=10;i++)
+{
+	document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td>");
+}
+document.write("</table>");
+</script>
+</head>
+</html>
